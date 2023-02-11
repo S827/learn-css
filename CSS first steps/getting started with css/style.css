@@ -36,3 +36,21 @@ body h1+p .special{
     background-color: black;
     padding: 5px;
 }
+.outer{
+    bordeR: 5px solid red;
+}
+.box{
+    padding: 10px;
+    width: calc(50% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+    transform: rotate(8deg);
+}
+
+.square{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(45deg);
+}

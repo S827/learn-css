@@ -1,0 +1,26 @@
+1. To use fontawesome icons, add it in HTML's head
+2. Add a div element with class name 'class'
+3. add anchor elements inside div
+4. add a inline element i or span inside each anchor elements with speicific class
+    name for icons
+    Home: fa fa-home
+    Search: fa fa-search
+    Envelope: fa fa-envelope
+    Globe: fa fa-globe
+    Trash: fa fa-trash
+5. Now we will add css to make our Horizontal toolbar
+6. first select div element and add below props
+    a. set 100% width
+    b. set background color of toolbar
+    c. set overflow prop to auto so that we can use float prop
+7. Now select div's a tag and set below css rules
+    a. set float to left
+    b. set width to 20% so that all the icons takes equal spaces
+    c. set text-align to center
+    d. set top and bottom padding 10px
+    e. set white color
+    f. set fontsize
+    g. set transition for hover effect
+8. Now set rules for a:hover
+    a. set bgcolor so that when user hovers bgcolor will change
+
