@@ -1,0 +1,21 @@
+.accordion{
+    width: 100%;
+    background-color: orange;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.active, .accordion:hover{
+    background-color: brown;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
