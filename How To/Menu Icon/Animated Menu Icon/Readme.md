@@ -14,3 +14,6 @@ Task: Create animated menu icon
     a. set transform prop to translate bars y's posn and rotate
 5. add CSS rules to change and bar2
     a. set 0 opacity
+6. add script to animate the menu icon
+    a. select cotnainer div
+    b. add event listener to div, so that when it's clicked 'change' class will be added or removed with toggle function
