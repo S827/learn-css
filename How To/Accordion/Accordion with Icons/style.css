@@ -1,0 +1,32 @@
+.accordion{
+    width: 100%;
+    background-color: aliceblue;
+    color:black;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 1s;
+    text-align: left;
+}
+
+.active, .accordion:hover{
+    background-color: aquamarine;
+}
+.panel{
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    background-color: blue;
+    overflow:hidden;
+}
+.accordion:after{
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float:right;
+    margin-left:5px;
+}
+.active:after{
+    content: '\02796';
+}
