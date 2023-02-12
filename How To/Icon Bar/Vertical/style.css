@@ -1,0 +1,16 @@
+.icon-bar{
+    width: 100px;
+    background-color: #555;
+}
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 1s ease;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+a:hover{
+    background-color: orange;
+}
