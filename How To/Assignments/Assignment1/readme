@@ -1,0 +1,15 @@
+Create a webpage that contains menus
+a. Accordion
+b. Icon Bar
+c. Menu Icon
+
+when clicked on menu items, it should open a webpage which contains
+a. accordion
+    A. DEFAULT ACCORDION WITH ICONS
+    B. ANIMATED ACCORDION WITH ICONS
+B. ICON BAR
+    A. HORIZONTAL ICON BAR
+    B. VERTICAL ICON BAR
+C. MENU ICON
+    A. DEFAULT MENU ICON
+    B. ANIMATED MENU ICON
