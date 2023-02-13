@@ -1,0 +1,42 @@
+main{
+    color: whitesmoke;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h1{
+    margin-bottom: 60px;
+}
+.accordion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:gray;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    background-color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+}
+.active, .accordion:hover{
+    background-color: orange;
+}
+.accordion:after{
+    content: '\02795';
+    float: right;
+    font-size: 20px;
+}
+.active:after{
+    content: '\02796'
+}
+.panel{
+    margin-left: 10px;
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    color: whitesmoke;
+}
