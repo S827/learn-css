@@ -1,0 +1,26 @@
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin-left: 100px;
+}
+.menu-icon{
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+.bar1, .bar2, .bar3{
+    width: 50px;
+    height: 5px;
+    margin: 5px;
+    background-color: orange;
+    transition: 1s;
+}
+.active .bar1{
+    transform: translate(0, 10px) rotate(-45deg);
+}
+.active .bar3{
+    transform: translate(0, -10px) rotate(45deg);
+}
+.active .bar2{
+    opacity: 0;
+}
