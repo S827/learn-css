@@ -1,0 +1,22 @@
+main{
+    color: aliceblue;
+    margin-left: 100px;
+    padding: 20px; 
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h1{
+    color: orange;
+    padding: 20px;
+    margin:20px;
+}
+
+main p{
+    padding:20px;
+    margin:20px;
+}
+main li{
+    padding: 10px;
+    margin-left: 15px;
+    list-style-type:square;
+}
