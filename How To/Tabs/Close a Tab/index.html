@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togglable tabs: close a tab</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tablink" onclick="myFunc(event, 'Finland')" id="defaultTab">Finland</button>
+        <button class="tablink" onclick="myFunc(event, 'Sweden')">Sweden</button>
+        <button class="tablink" onclick="myFunc(event, 'Germany')">Germany</button>
+    </div>
+    <div class="tabContent" id="Finland">
+        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times</span>
+        <h3>Finland</h3>
+        <p>I have been to Finland</p>
+    </div>
+    <div class="tabContent" id="Sweden">
+        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times</span>
+        <h3>Sweden</h3>
+        <p>I have been to Sweden</p>
+    </div>
+    <div class="tabContent" id="Germany">
+        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times</span>
+        <h3>Germany</h3>
+        <p>I have been to Germany</p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
