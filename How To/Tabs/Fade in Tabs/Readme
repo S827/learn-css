@@ -1,0 +1,16 @@
+only diff is that we have added some animation effect in it
+
+-webkit-animation: fadeEffect 1s;
+animation: fadeEffect 1s;
+
+in tab-content class
+
+and added css animation rules as follows
+@-webkit-keyframes fadeEffect{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes fadeEffect{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
