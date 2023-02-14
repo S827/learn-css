@@ -1,0 +1,37 @@
+we have a tab of buttons
+by clicking on a tab we want to display the content related to the tab
+also we want the current tab to have a active bgcolor
+HTML:
+add a div element with classname
+    inside it add buttons with classname and onclick attribute
+add 3 div element with same classname and diff ids
+    inside each add h3 and p tag with its contents
+
+CSS:
+button container div
+    add hidden overflow prop
+    add bgcolor
+    add border
+button
+    add left float prop
+    add inherited bgcolor
+    add padding
+    add pointer cursor
+    add no border
+    add no outline
+    add transition
+button on hover
+    add bgcolor
+button which is active
+    add bgcolor
+tabcontent
+    add none display
+    add border
+    add padding
+    remove top border
+JS:
+    write a function with args event, cityName
+        set display prop of tabcontent to none
+        remove active classname from button
+        set display prop to block
+        add the active class to currentTarget
