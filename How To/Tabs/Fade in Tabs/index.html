@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togglable faded tabs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tablink" onclick="myFunc(event, 'Barcelona')">Barcelona</button>
+        <button class="tablink" onclick="myFunc(event, 'Paris')">Paris</button>
+        <button class="tablink" onclick="myFunc(event, 'Zurich')">Zurich</button>
+    </div>
+    <div class="tab-content" id="Barcelona">
+        <h3>Barcelona</h3>
+        <p>Nice place</p>
+    </div>
+    <div class="tab-content" id="Paris">
+        <h3>Paris</h3>
+        <p>Awesome place</p>
+    </div>
+    <div class="tab-content" id="Zurich">
+        <h3>Zurich</h3>
+        <p>Cool place</p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
