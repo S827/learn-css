@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Togglable tabs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tablink" onclick="myFunc(event, 'Manila')" id="defaultTab">Manila</button>
+        <button class="tablink" onclick="myFunc(event, 'Romania')">Romania</button>
+        <button class="tablink" onclick="myFunc(event, 'HCM City')">HCM City</button>
+    </div>
+    <div class="tabContent" id="Manila">
+        <h3>Manila</h3>
+        <p>I have been to Manila</p>
+    </div>
+    <div class="tabContent" id="Romania">
+        <h3>Romania</h3>
+        <p>I have been to Romania</p>
+    </div>
+    <div class="tabContent" id="HCM City">
+        <h3>HCM City</h3>
+        <p>I have been to HCM City</p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

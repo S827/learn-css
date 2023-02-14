@@ -1,0 +1,4 @@
+The only difference from faded tabs is we have added default tab opened this time
+to do that, add id attribute to any of the tabs
+and in script, click the tab automaticall by calling the click function on that id:
+document.getElementById('id).click()
