@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Headers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="New-Delhi" class="tabcontent">
+        <h1>New Delhi</h1>
+        <p>New Delhi is the capital of India.</p>
+    </div>
+    <div id="Moscow" class="tabcontent">
+        <h1>Moscow</h1>
+        <p>Moscow is the capital of Russia.</p>
+    </div>
+    <div id="Manila" class="tabcontent">
+        <h1>Manila</h1>
+        <p>Manila is the capital of Philippines.</p>
+    </div>
+    <div id="Taipei-City" class="tabcontent">
+        <h1>Taipei City</h1>
+        <p>Taipei City is the capital of Taiwan.</p>
+    </div>
+    <div id="Yangon" class="tabcontent">
+        <h1>Yangon</h1>
+        <p>Yangon is the capital of Myanmar.</p>
+    </div>
+    <button class="tablink" onclick="myFunc('New-Delhi', this, 'pink')" id="defaultOpen">New Delhi</button>
+    <button class="tablink" onclick="myFunc('Moscow', this, 'skyblue')">Moscow</button>
+    <button class="tablink" onclick="myFunc('Manila', this, 'lightgreen')">Manila</button>
+    <button class="tablink" onclick="myFunc('Taipei-City', this, 'orange')">Taipei City</button>
+    <button class="tablink" onclick="myFunc('Yangon', this, 'cadetblue')">Yangon</button>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
