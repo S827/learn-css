@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+/* set the height of the body and document to 100% to enable full page tabs */
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* style tablinks */
+.tablink{
+    width: 25%;
+    float: left;
+    background-color: #555;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    transition: 1s;
+    color: white;
+}
+.tablink:hover{
+    background-color: #777;
+}
+/* style the tabcontent */
+.tabcontent{
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
