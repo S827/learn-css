@@ -1,0 +1,28 @@
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+.topnav a{
+    float: left;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+.topnav a.active{
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px){
+    .topnav a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
