@@ -1,0 +1,23 @@
+.topnav{
+    width: 100%;
+    background-color: #333;
+    /* padding: 15px 15px; */
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 17px;
+    background-color: inherit;
+    float: left;
+}
+.topnav a:hover{
+    background-color: whitesmoke;
+    color: #333;
+}
+.topnav a.active{
+    background-color: aliceblue;
+    color: #333;
+}
