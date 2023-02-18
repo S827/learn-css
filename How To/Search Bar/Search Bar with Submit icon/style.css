@@ -5,11 +5,10 @@
 .topnav a{
     display: block;
     float: left;
-    padding: 12px 12px;
     text-decoration: none;
-    color: whitesmoke;
     font-size: 17px;
-    border: none;
+    padding: 12px 12px;
+    color: whitesmoke;
 }
 .topnav a:hover{
     background-color: whitesmoke;
@@ -20,35 +19,34 @@
 }
 .topnav input[type=text]{
     font-size: 17px;
-    margin-top: 6px;
-    padding: 6px;
+    margin-top:6px;
+    padding:6px;
     border: none;
 }
 .topnav .search-container button{
     float: right;
-    margin-top: 6px;
     font-size: 17px;
-    padding: 6px;
-    margin-right: 5px;
-    cursor: pointer;
+    padding: 6px 10px;
     border: none;
-    background-color: #999;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #ccc;
 }
 .topnav .search-container button:hover{
     background-color: #333;
     color: whitesmoke;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width:600px){
     .topnav .search-container{
         float: none;
     }
     .topnav a, .topnav input[type=text], .topnav .search-container button{
         display: block;
         float: none;
-        width: 100%;
-        text-align: left;
-        padding: 14px;
         margin:0;
+        width: 100%;
+        padding: 10px;
     }
     .topnav input[type=text]{
         border: 1px solid #333;
