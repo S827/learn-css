@@ -1,0 +1,34 @@
+.heading{
+    margin: 70px;
+    text-align: center;
+}
+.tab{
+    width: 200px;
+    border: 1px solid #333;
+    /* overflow: hidden; */
+}
+.tab button{
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 12px 12px;
+    background-color: #333;
+    color: #f1f1f1;
+    border: none;
+}
+.tab button:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.tab button.active{
+    background-color: #f1f1f1;
+    color: #333;
+}
+.tabcontent{
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 17px;
+    display: none;
+}
