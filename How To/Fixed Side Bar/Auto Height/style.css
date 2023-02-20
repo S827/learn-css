@@ -1,0 +1,38 @@
+*{
+    /* margin: 0; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidenav{
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20;
+    left: 10;
+    overflow-x: hidden;
+    background-color: #333;
+    padding: 8px 0px;
+    /* margin: 10px; */
+}
+.sidenav a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ccc;
+    padding: 10px;
+}
+.sidenav a:hover{
+    background-color: #ccc;
+    color: #333;
+}
+.main{
+    margin-left: 150px;
+    /* margin: 25px; */
+    background-color: #333;
+    color: #ccc;
+    padding: 0 10px;
+}
+@media screen and (max-width: 500px){
+    .sidenav{padding: 6px}
+    .sidenav a{font-size: small;}
+    .main{font-size: small;}
+}
