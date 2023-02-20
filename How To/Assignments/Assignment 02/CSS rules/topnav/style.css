@@ -50,5 +50,16 @@ html, body{
 }
 
 @media screen and (max-width: 500px){
-    
+    /* .topnav a:not(:first-child){display: none;} */
+    .topnav .search-container{float: none;}
+    .topnav a, .topnav input[type=text], .topnav .search-container a{
+        display: block;
+        float: none;
+        width: 100%;
+        margin:0;
+        padding: 10px;
+    }
+    .topnav input[type=text]{
+        border: 1px solid #ccc;
+    }
 }
