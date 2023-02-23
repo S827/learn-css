@@ -1,0 +1,18 @@
+*{margin:0}
+div.scroll{
+    overflow: auto;
+    background-color: #333;
+    white-space: nowrap;
+}
+div.scroll a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+div.scroll a:hover{
+    background-color: #ccc;
+    color: #333;
+}
