@@ -1,0 +1,36 @@
+.dropdown{
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #333;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+.drop-content{
+    display: none;
+    min-width: 100%;
+    background-color: #ccc;
+    right: 0;
+    border-radius: 5px;
+    height: 200px;
+    overflow-y: auto;
+}
+.drop-content a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+}
+a:hover{
+    background-color: orange;
+}
+.dropbtn:hover{
+    background-color: red;
+}
+.show{display: block;}
