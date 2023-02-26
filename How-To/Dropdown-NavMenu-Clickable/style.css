@@ -1,0 +1,44 @@
+*{margin: 0;}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 20px;
+}
+.topnav a:hover{
+    background-color: orange;
+    color: #333;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropbtn{
+    background-color: gray;
+    border: none;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+}
+.drop-content{
+    position: absolute;
+    display: none;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.4);
+    background-color: pink;
+    border-radius: 5px;
+}
+.drop-content a{
+    display: block;
+    float: none;
+    text-decoration: none;
+    color: #333;
+}
+.show{display: block;}
