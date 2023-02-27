@@ -1,0 +1,20 @@
+.col: number of columns will be decided automatically by browser
+.col-4: it will take spaces of 4 columns out of 12 columns, 12 / 4 = 3
+.col-6: 6 columns out of 12, so it can show only 2 columns, as 12/6  = 2
+.col-3: 12 / 3 = 4 columns total can show
+.col-2: 12/2 = 6 columns
+.col-1: 12/1= 12 columns
+
+.col-sm-4: 
+            sm->used for responsive when screen is less or equal to 576px, columns will be dispplayed
+            stack on other
+            4: 12 / 4 = 3 columns
+.col-sm-3: responsive and 4 columns
+
+.col-md-3: responsive for medium sized screen 768px with 4 columns
+
+.col-lg-3: responsive for large sized screen 992px with 4 columns
+
+.col-xl-3: responsive for xlarge sized screen 1200px with 4 columns
+
+.col-xxl-3: responsive for xxlarge sized screen 1400px with 4 columns
