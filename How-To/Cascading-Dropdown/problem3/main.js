@@ -1,6 +1,6 @@
 // declare object
 // on window load create a function to load the options in respective select elements
-probObject = {
+let probObject = {
     "Maths": {
         "Algebra": ["some", "any", "many"],
         "Calculus": ["differectial", "integral"],
