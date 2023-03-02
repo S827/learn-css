@@ -1,0 +1,4 @@
+create a clickable dropdown in navbar
+
+navbar should contain 6 links in which 2 of them should be dropdowns
+and dropdown should open when clicked and collapse when clicked anywhere on the screen
