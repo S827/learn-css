@@ -1,0 +1,5 @@
+create 2 dropdown in navbar of 6 Links
+
+links: home, news, clients, contact, about, projects
+clients: ABC, DEF, GHI
+projects: a1p, a2p, a3p, a4p
