@@ -1,0 +1,26 @@
+Problem 1:
+Make use of below BS5 Typography classes
+1-.display-1 to .display6
+2-.h1 to .h6
+3-mark
+4-small
+5-abbr
+6- blockquote
+7- dl
+8- code
+9- pre
+10- kbd
+11- .lead
+12- .text-start
+13- .text-end
+14- .text-center
+15- .text-decoration-none
+16- .text-break
+17- .text-nowrap
+18. .text-lowercase
+19- .text-uppercase
+20- .text-capitalize
+21- .initialism
+22- .list-unstyled
+23- .list-inline
+24- .list-inline-item
